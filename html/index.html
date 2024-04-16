@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>DHMA Dashboard</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="topbar">
+            <div class="logo">
+                <h2>DHMA</h2>
+            </div>
+            <div class="search">
+                <input type="text" name="search" placeholder="Zoek Hier">
+                <label for="search"><i class="fas fa-search"></i></label>
+            </div>
+            <i class="fas fa-bell"></i>
+            <div class="user">
+                <img src="pinktape.png" alt="">
+            </div>
+        </div>
+        <div class="sidebar">
+            <ul>
+                <li>
+                    <a href="index.html">
+                        <i class="fa fa-dashboard"></i>
+                        <div>Quick Access</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="/html/maindashboard.html">
+                        <i class=""></i>
+                        <div>Main Dashboard</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class=""></i>
+                        <div>nog in te vullen</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class=""></i>
+                        <div>nog in te vullen</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="/html/usersettings.html">
+                        <i class=""></i>
+                        <div>User settings</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="/html/settings.html">
+                        <i class=></i>
+                         <div>settings</div> 
+                    </a>
+                </li>
+                <li>
+                    <a href="html/login.html">
+                        <i class=""></i> <i class="fa fa-sign-out"></i>
+             <div>Log uit</div> 
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="main">
+            <div class="cards">
+                <div class="card">
+                    <div class="card-content">
+                        <div class="number">4</div>
+                        <div class="card-name">Gebruikers</div>
+                    </div>
+                    <div class="icon-box">
+                        <i class="fas fa-users"></i>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <div class="number">48h</div>
+                        <div class="card-name">Volgende betaling</div>
+                    </div>
+                    <div class="icon-box">
+                        <i class="fas fa-dollar-sign"></i>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <div class="number">68</div>
+                        <div class="card-name">nog in te vullen</div>
+                    </div>
+                    <div class="icon-box">
+                        <i class="fas fa-users"></i>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <div class="number"></div>
+                        <div class="card-name">User:</div>
+                    </div>
+                    <div class="icon-box">
+                        <i class="fas fa-dollar-sign"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="charts">
+                <div class="chart">
+                    <h2>Opbrengst zonnepanelen (Afgelopen 12 maanden)</h2>
+                    <div>
+                        <canvas id="lineChart"></canvas>
+                    </div>
+                </div>
+                <div class="chart doughnut-chart">
+                    <h2>Wat Verbruikt het meest?</h2>
+                    <div>
+                        <canvas id="doughnut"></canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.5.1/dist/chart.min.js"></script>
+    <script src="/js/chart1.js"></script>
+    <script src="/js/chart2.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,11 @@
+Update 1.0 (Rayan):
+-Css toegevoegd voor elke html bestand
+-Login en signup page gemaakt met profielfoto functionaliteiten.
+- geconnect met database. Nog geen belangrijke hierin gedaan. Komt later.
+- Dashboard layout gemaakt
+
+2.0 (Rayan):
+Login en signup page eruit gehaald sinds deze zorgde dat de css niet goed functioneerde.
+Chart.js toegevoegd aan de database met fictieve informatie
+Arduino onderdelen worden toegevoegd door Elliot
+en de tijd en datum word gevoegd door Fabrizio
